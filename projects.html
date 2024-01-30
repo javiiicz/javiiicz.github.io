@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>My Webpage</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" id="start">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Javier</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/abtme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="active"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/next.html">What's Next?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="title">
+      <div class="container">
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <div class="projectR">
+      <img class="projimgR" src="images/partial_sudoku.png" />
+      <h3>Sudoku</h3>
+      <ul>
+        <li>
+          Developed a Sudoku program in Python that uses a recursive
+          backtracking algorithm
+        </li>
+        <li>
+          Incorporated a puzzle creator that creates random valid Sudokus based
+          on users selected difficulty
+        </li>
+        <li>
+          Established a puzzle solver that can find the solution for any valid
+          puzzle regardless of difficulty
+        </li>
+        <li>
+          Implemented a graphical user interface (GUI) that allows users to
+          enter and solve Sudoku puzzles interactively
+        </li>
+      </ul>
+      <div class="GHlink">
+        <p>Check out the project on Github!</p>
+        <a href="https://github.com/javiiicz/Sudoku">Javier's Sudoku</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="projectL">
+      <img class="projimgL" src="images/Mastermind.jpg" />
+      <h3>Mastermind</h3>
+      <ul>
+        <li>
+          Developed the game Mastermind on Java where players try to guess a
+          secret number sequence with hints.
+        </li>
+        <li>
+          Created a random sequence creator so that each game unfolds
+          differently.
+        </li>
+        <li>
+          Programmed a second mode where the user establishes the sequence to
+          decode and the computer arrives to it by hints. (inverted mode)
+        </li>
+        <li>
+          Applied methods of array manipulation to store all possible codewords
+          for the computer to decode.
+        </li>
+      </ul>
+      <div class="GHlink ghleft">
+        <p>Check out the project on Github!</p>
+        <a href="https://github.com/javiiicz/Mastermind">Javier's Mastermind</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="projectR">
+      <img class="projimgR" src="images/Comic.webp" />
+      <h3>Comic Reader</h3>
+      <ul>
+        <li>
+          Designed a comic book reader in Python using the Tkinter library that allows users to browse, create,
+edit, and read comics by page, panel, or dialogue</li>
+<li> Built a user identification system that encrypts and stores usernames and passwords</li>
+<li>Devised a user edit system in which Administrators can change permissions and create new accounts</li>
+        </li>
+      </ul>
+      <div class="GHlink">
+        <p>Check out the project on Github!</p>
+        <a href="https://github.com/javiiicz/Comic-Reader">Javier's Reader</a>
+      </div>
+    </div>
+  </body>
+</html>
