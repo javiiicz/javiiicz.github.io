@@ -305,13 +305,6 @@ body {
   margin-bottom: 150px;
 }
 
-.slide-1 {
-  background-image: url('/src/images/Photopea-Background-1.png');
-  background-position: 10%;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .slide-2 {
   background-image: url('/src/images/Sudoku-Background.png');
   background-position: 20%;
@@ -476,21 +469,46 @@ body {
 }
 
 .slidercontainer {
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  grid-template: ". . Title" 14%
-                 ". . ."
-                 ". . Desc" 51%
-                 ". . ."
-                 "Link . Tools" 17%
-                 / 33% auto 30%;
+  grid-gap: 5px;
+  grid-template: ". . Title" auto
+                ". . ." auto
+                ". . Desc" auto
+                ". . ." auto
+                "Link . Tools" auto
+                / 10% auto 33%;
   grid-auto-columns: 1fr;
   align-items: stretch;
   justify-items: stretch;
   width: 100%;
-  height: 100%;
-  padding: 20px 100px;
+  height: 90%;
   display: grid;
+}
+
+.slide-1 {
+  background-image: url('./images/Photopea-Background-1.png');
+  background-position-x: 10%;
+  background-position-y: 0%;
+  background-size: auto 95%;
+  padding: 30px;
+  height: 500px;
+}
+
+.slide-2 {
+  background-image: url('/src/images/Sudoku-Background.png');
+  background-position-x: 10%;
+  background-position-y: 0%;
+  background-size: auto 95%;
+  padding: 30px;
+  height: 500px;
+}
+
+.slide-3 {
+  background-image: url('/src/images/Mastermind-Background.png');
+  background-position-x: 10%;
+  background-position-y: 0%;
+  background-size: auto 95%;
+  padding: 30px;
+  height: 500px;
 }
 
 .slidertitlecontainer {
@@ -778,12 +796,17 @@ body {
 
   .slide-2 {
     background-image: url('/src/images/Sudoku-Background-1.png');
+    background-position: 50%;
+    background-size: cover;
   }
 
   .slide-3 {
     background-image: url('/src/images/Mastermind-Mobile-Background.png');
     background-position: 50%;
+    background-size: cover;
   }
+
+  
 
   .slider {
     height: 600px;
@@ -870,71 +893,71 @@ body {
   justify-self: stretch;
 }
 
-#w-node-_0715561a-2c8c-51bf-8bce-955d620653b8-05a70ca8 {
+#SliderTitle1ID {
   grid-area: Title;
   align-self: center;
   justify-self: center;
 }
 
-#w-node-_539e6dd6-9d82-1630-84a8-ac01887dc3bc-05a70ca8 {
+#SliderDesc1ID {
   grid-area: Desc;
   align-self: center;
   justify-self: start;
 }
 
-#w-node-d15d1348-e1e4-4554-9621-8f35310c9612-05a70ca8 {
+#Slider1ToolsContainer {
   grid-area: Tools;
   align-self: stretch;
   justify-self: stretch;
 }
 
-#w-node-_8d020a3b-50bb-e6f1-6030-ae056bfe5b97-05a70ca8 {
+#Slider1LinksContainer {
   grid-area: Link;
   align-self: end;
   justify-self: start;
 }
 
-#w-node-bead95b0-3fbe-a1f2-9bd5-cf3b043f4b2c-05a70ca8 {
+#SliderTitle2ID {
   grid-area: Title;
   align-self: center;
   justify-self: center;
 }
 
-#w-node-bead95b0-3fbe-a1f2-9bd5-cf3b043f4b2f-05a70ca8 {
+#SliderDesc2ID {
   grid-area: Desc;
   align-self: center;
 }
 
-#w-node-bead95b0-3fbe-a1f2-9bd5-cf3b043f4b32-05a70ca8 {
+#Slider2ToolsContainerID {
   grid-area: Tools;
   align-self: stretch;
   justify-self: stretch;
 }
 
-#w-node-bead95b0-3fbe-a1f2-9bd5-cf3b043f4b3c-05a70ca8 {
+#Slider2LinksContainerID {
   grid-area: Link;
   align-self: end;
   justify-self: start;
 }
 
-#w-node-fcb948cd-de85-35ef-1bb4-49d85dea6692-05a70ca8 {
+#SliderTitle3ID {
   grid-area: Title;
   align-self: center;
   justify-self: center;
 }
 
-#w-node-fcb948cd-de85-35ef-1bb4-49d85dea6695-05a70ca8 {
+#SliderDesc3ID {
   grid-area: Desc;
   align-self: center;
 }
 
-#w-node-fcb948cd-de85-35ef-1bb4-49d85dea6698-05a70ca8 {
+#SliderToolsContainer3ID {
   grid-area: Tools;
   align-self: stretch;
   justify-self: stretch;
 }
 
-#w-node-fcb948cd-de85-35ef-1bb4-49d85dea66a2-05a70ca8 {
+#SliderLinksContainer3ID {
   grid-area: Link;
   align-self: end;
   justify-self: start;
@@ -991,7 +1014,7 @@ body {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_8d020a3b-50bb-e6f1-6030-ae056bfe5b97-05a70ca8 {
+  #Slider1LinksContainer {
     align-self: center;
     justify-self: center;
   }
