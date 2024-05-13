@@ -10,6 +10,7 @@ function Projects() {
                 naturalSlideWidth={100000}
                 naturalSlideHeight={70}
                 totalSlides={3}
+                infinite={true}
                 >
                 <Slider className='slider'>
                     <Slide index={0}>
@@ -82,8 +83,11 @@ function Projects() {
                     </div>
                     </Slide>
                 </Slider>
-                <ButtonBack>Back</ButtonBack>
-                <ButtonNext>Next</ButtonNext>
+                <div class = "buttonContainer">
+                    <ButtonBack className="sliderButton">Back</ButtonBack>
+                    <ButtonNext className="sliderButton">Next</ButtonNext>
+                </div>
+                
             </CarouselProvider>
         </ div>
     )

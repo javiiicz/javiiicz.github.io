@@ -4,6 +4,7 @@ import Header from './Header';
 import Intro from './Intro';
 import Skills from './Skills';
 import Projects from './Projects';
+import Timeline from './Timeline';
 import React from 'react';
 
 
@@ -15,6 +16,7 @@ function App() {
           <Intro />
           <Skills />
           <Projects />
+          <Timeline />
         </main>
     </div>
   );
