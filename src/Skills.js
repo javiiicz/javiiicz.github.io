@@ -11,7 +11,7 @@ function Skills() {
                 <p className="paragraph" > What I'm familiar working with... </p>
                 <div className="cardcontainer">
                     <SkillCard name="Java" img="images/Java.webp"/>
-                    <SkillCard name="Python" img="images/Python.webp"/>
+                    <SkillCard name="Python" img="images/python.webp"/>
                     <SkillCard name="C" img="images/C-Logo.png"/>
                     <SkillCard name="HTML / CSS" img="images/html.png"/>
                     <SkillCard name="Unity" img="images/unity-logo.png"/>
@@ -19,7 +19,6 @@ function Skills() {
                 </div>
             </div>
 </section>
-
     )
 }
 
