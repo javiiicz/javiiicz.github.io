@@ -3,7 +3,7 @@ import SkillCard from './SkillCard';
 
 function Skills() {
     return (
-        <section id="SkillSectionID" className="skillsection">
+        <section className="skillsection">
             <img src="images/RedBlob.svg" loading="lazy" alt="" className="blob red" />
             <img src="images/Yellow-Blob.svg" loading="lazy" alt="" className="blob yellow" />
             <div className="glassycontainer">

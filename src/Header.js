@@ -1,13 +1,13 @@
 function Header() {
     return (
-        <header class="header">
-            <nav class="navstyle">
-                <div id="logoID" class="logocontainer">
-                    <div class="logostyle">Javier Carrillo</div>
+        <header className="header">
+            <nav className="navstyle">
+                <div className="logocontainer">
+                    <div className="logostyle">Javier Carrillo</div>
                 </div>
-                <div class="linkcontainer">
-                    <a href="#" class="navlink">Link 1</a>
-                    <a href="#" class="navlink">Link2</a>
+                <div className="linkcontainer">
+                    <a href="#" className="navlink">Link 1</a>
+                    <a href="#" className="navlink">Link2</a>
                 </div>
             </nav>
         </header>

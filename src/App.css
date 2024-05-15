@@ -432,6 +432,7 @@ body {
   padding: 20px 30px;
   font-size: 20px;
   font-weight: 700;
+  color: #fff;
 }
 
 .timelinecontainer {
@@ -445,6 +446,7 @@ body {
   grid-auto-columns: 1fr;
   padding: 20px;
   display: grid;
+  justify-self: start;
 }
 
 .timelineelecontainer {
@@ -888,11 +890,6 @@ body {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#ImgContainerID {
-  align-self: stretch;
-  justify-self: stretch;
-}
-
 #SliderTitle1ID {
   grid-area: Title;
   align-self: center;
@@ -963,7 +960,7 @@ body {
   justify-self: start;
 }
 
-#w-node-f0009dd8-762d-c66c-2293-f33218940b38-05a70ca8 {
+#TimelineContainerID {
   grid-area: Area;
 }
 
@@ -982,10 +979,6 @@ body {
 
 #w-node-_618f4ae0-ff54-37fd-5c59-b24bb5c4af7b-05a70ca8 {
   justify-self: center;
-}
-
-#logoID {
-  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-f77f4d59-8bde-aa21-e897-36314198ca29-f45f591d {
@@ -1017,10 +1010,6 @@ body {
   #Slider1LinksContainer {
     align-self: center;
     justify-self: center;
-  }
-
-  #w-node-f0009dd8-762d-c66c-2293-f33218940b38-05a70ca8 {
-    justify-self: start;
   }
 
   #w-node-_556c48ec-2bf3-9482-8f41-059832c0edf4-05a70ca8 {

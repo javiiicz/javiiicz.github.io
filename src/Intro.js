@@ -5,7 +5,7 @@ function Intro() {
         <section className="introsection">
             <div id="Column1ID" className="column">
                 <div className="introtextcontainer">
-                <p id="ParagraphID" className="introtextstyle" >
+                <p className="introtextstyle" >
                     Hello! I'm{" "}
                     <span className="namestyle"> Javier </span>
                     , aspiring software developer.
@@ -13,7 +13,7 @@ function Intro() {
                 </div>
             </div>
             <div id="Column2ID" className="column">
-                <div id="ImgContainerID" className="introimgcontainer" >
+                <div className="introimgcontainer" >
                 <img
                     src="images/Organic-SVG-Blob.svg"
                     loading="lazy"

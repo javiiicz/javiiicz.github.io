@@ -14,7 +14,7 @@ function Timeline() {
                     Experience
                 </h2>
                 <div className="timelinecontainer" >
-                    <div id="w-node-f0009dd8-762d-c66c-2293-f33218940b38-05a70ca8" className="timelineelecontainer" >
+                    <div className="timelineelecontainer" >
                         <h3 className="timelineheading">Schoolhouse.world</h3>
                         <div className="timelineposition">Math Tutor</div>
                         <div className="timelinetime">Sep 2022 - Nov 2022</div>
