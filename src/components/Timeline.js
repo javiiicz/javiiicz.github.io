@@ -10,7 +10,7 @@ function Timeline() {
             <img src="images/TealBlob.svg" loading="lazy" alt="" className="blob teal" />
             
             <div className="glassycontainer mobiletimeline">
-                <h2 className="headingstyle" >
+                <h2 className="headingstyle nopadding" >
                     Experience
                 </h2>
                 <div className="timelinecontainer" >

@@ -2,17 +2,16 @@ import React from "react";
 
 function Intro() {
     return (
-        <section className="introsection">
-            <div id="Column1ID" className="column">
-                <div className="introtextcontainer">
-                <p className="introtextstyle" >
+        <section className="p-10 grid grid-cols-intro gap-5 grid-flow-col">
+            <div className="flex items-center justify-center">
+                <div className="flex justify-end items-center">
+                <p className="text-center w-11/12 m-0 px-0 text-5xl font-extrabold" >
                     Hello! I'm{" "}
-                    <span className="namestyle"> Javier </span>
-                    , aspiring software developer.
+                    <span className="transition-all text-orange-500 hover:drop-shadow-glow"> Javier</span>, aspiring software developer.
                 </p>
                 </div>
             </div>
-            <div id="Column2ID" className="column">
+            <div className="flex items-center justify-center">
                 <div className="introimgcontainer" >
                 <img
                     src="images/Organic-SVG-Blob.svg"
