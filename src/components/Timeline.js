@@ -3,6 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline() {
     return (
+        <section id="Experience">
         <div className="experiencesection">
             <img src="images/GreenBlob.svg" loading="lazy" alt="" className="blob green" />
             <img src="images/RedBlob.svg" loading="lazy" alt="" className="blob red" />
@@ -91,7 +92,7 @@ function Timeline() {
                 </div>
             </div>
         </div>
-
+        </ section>
     )
 }
 

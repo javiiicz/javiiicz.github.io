@@ -3,7 +3,7 @@ import SkillCard from './SkillCard';
 
 function Skills() {
     return (
-        <section className="mt-14 relative">
+        <section id="Skills" className="mt-14 relative">
             <img src="images/RedBlob.svg" loading="lazy" alt="" className="absolute origin-right w-[400px] -top-[150px] -left-[200px]" />
             <img src="images/Yellow-Blob.svg" loading="lazy" alt="" className="absolute w-[300px] -right-[100px] top-[100px]" />
             <div className="backdrop-blur bg-gray-100/50 mb-40 px-[10%] py-2 shadow-glass py-6">

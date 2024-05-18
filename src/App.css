@@ -2,6 +2,13 @@ body {
   font-family: Plus Jakarta Sans, sans-serif;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 64px; /* fixed header height*/
+  margin: -64px 0 0; /* negative fixed header height */
+}
+
 .glassycontainer {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);

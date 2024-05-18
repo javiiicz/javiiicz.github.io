@@ -9,11 +9,11 @@ function Footer() {
                             <a
                             href="https://www.github.com/javiiicz"
                             className="w-12 h-12 bg-[url('/src/images/GitHub-Logo.svg')] bg-cover"
-                            />
+                            > </a>
                             <a
                             href="https://www.linkedin.com/in/jcarrilloz/"
                             className="w-12 h-12 bg-[url('/src/images/LinkedIn-Logo.svg')] bg-cover"
-                            />
+                            > </a>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-5 items-center justify-items-center">

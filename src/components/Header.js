@@ -6,8 +6,9 @@ function Header() {
                     <div className="text-gray-900 text-xl font-extrabold italic">Javier Carrillo</div>
                 </div>
                 <div className="h-full flex gap-5 items-center justify-end px-5">
-                    <a href="#" className="text-gray-900 font-medium hover:font-black transition-all">Link 1</a>
-                    <a href="#" className="text-gray-900 font-medium hover:font-black transition-all">Link2</a>
+                    <a href="#Skills" className="text-gray-900 font-medium hover:font-black transition-all">Skills</a>
+                    <a href="#Projects" className="text-gray-900 font-medium hover:font-black transition-all">Projects</a>
+                    <a href="#Experience" className="text-gray-900 font-medium hover:font-black transition-all">Experience</a>
                 </div>
             </nav>
         </header>
