@@ -3,6 +3,22 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  safelist: [
+    'from-orange-100',
+    'from-lime-100',
+    'from-red-100',
+    'from-amber-100',
+    'from-cyan-100',
+    'from-teal-100',
+    'from-blue-100',
+    'bg-orange-50',
+    'bg-lime-50',
+    'bg-red-50',
+    'bg-amber-50',
+    'bg-cyan-50',
+    'bg-teal-50',
+    'bg-blue-50',
+  ],
   theme: {
     extend: {
       gridTemplateColumns: {

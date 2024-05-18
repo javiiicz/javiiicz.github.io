@@ -18,7 +18,7 @@ function Intro() {
                     loading="lazy"
                     width="Auto"
                     alt=""
-                    className="w-full rotate-45 translate-x-3"
+                    className="w-[450px] rotate-45 translate-x-3"
                 />
                 <img
                     src= "images/ducky.png"
