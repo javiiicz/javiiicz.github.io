@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard';
 
 function Projects() {
     return (
-        <div className="py-10 my-40 px-[10%] bg-gradient-to-r from-red-400 to-yellow-300 shadow-md">
+        <div className="py-10 my-40 px-[10%] bg-gradient-to-r from-red-400/95 to-yellow-300/95 shadow-md">
             <h2 className="font-bold py-5  text-3xl">Projects</h2>
-            <p className="text-xl"> These projects reflect my abilities to apply what is learned in class and create impactful results.</p>
+            <p className="text-xl"> These projects serve as a way to practice my abilities, apply what is learned in class, and create impactful results.</p>
             <div className="w-full flex flex-rows flex-wrap p-10 content-center justify-center gap-4">
                 <ProjectCard 
                     name="Water Reviews" 
