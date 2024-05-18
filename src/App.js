@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="bg-slate-50">
       <Header />
-        <main className="main">
+        <main className="overflow-hidden">
           <Intro />
           <Skills />
           <Projects />

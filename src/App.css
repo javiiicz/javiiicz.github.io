@@ -2,40 +2,6 @@ body {
   font-family: Plus Jakarta Sans, sans-serif;
 }
 
-.introimgcontainer {
-  transform-style: preserve-3d;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  justify-items: stretch;
-  width: 100%;
-  display: flex;
-  transform: rotateX(0)rotateY(1deg)rotateZ(0);
-}
-
-.imgbg {
-  transform-style: preserve-3d;
-  flex: 0 auto;
-  width: 100%;
-  position: relative;
-  transform: rotate(50deg)translate3d(0, 0, -100px);
-}
-
-.imgfg {
-  width: 430px;
-  position: fixed;
-  transform: translate(0);
-}
-
-.imagemg {
-  transform-style: preserve-3d;
-  border-radius: 0;
-  position: absolute;
-  transform: rotate(-88deg)scale(.6)translate3d(178px, 201px, 30px);
-}
-
 .glassycontainer {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -46,47 +12,11 @@ body {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, .2);
 }
 
-.glassycontainer.values {
-  background-color: rgba(235, 235, 235, .4);
-  padding-left: 0%;
-  padding-right: 0%;
-}
-
 .headingstyle {
   padding-bottom: 10px;
   padding-left: 10%;
   padding-right: 10%;
   font-weight: 600;
-}
-
-.headingstyle.skills {
-  padding-left: 0%;
-  padding-right: 0%;
-}
-
-.cardstyle {
-  z-index: 1;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  border: 1px solid #d7d7d7;
-  border-radius: 15px;
-  flex-flow: column;
-  flex: 0 auto;
-  grid-template: "." 1fr
-                 "Area" 1fr
-                 / 1fr;
-  grid-auto-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 150px;
-  padding-left: 5px;
-  padding-right: 5px;
-  display: flex;
-  position: relative;
-  transform: translate(0);
 }
 
 .cardicon {
@@ -95,41 +25,12 @@ body {
   transform: translate3d(0, 0, 1px);
 }
 
-.text-block {
-  color: #333;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.cardcontainer {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  perspective: 500px;
-  text-align: left;
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: flex;
-}
-
 .blob {
   width: 300px;
   position: absolute;
   top: 0%;
   bottom: 0%;
   left: 0%;
-  right: auto;
-}
-
-.blob.red {
-  width: 30%;
-  position: absolute;
-  top: -20%;
-  bottom: auto;
-  left: -10%;
   right: auto;
 }
 
@@ -148,14 +49,6 @@ body {
   right: 0%;
 }
 
-.blob.yellow {
-  width: 400px;
-  top: 30%;
-  bottom: auto;
-  left: auto;
-  right: -10%;
-}
-
 .blob.darkblue {
   width: 400px;
   top: 50%;
@@ -163,24 +56,8 @@ body {
   left: -20%;
 }
 
-.skillsection {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  position: relative;
-  overflow: visible;
-}
-
-.main {
-  overflow: hidden;
-}
-
 .paragraph {
   font-size: 20px;
-}
-
-.projectsection {
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 .experiencesection {

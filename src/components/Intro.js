@@ -11,14 +11,14 @@ function Intro() {
                 </p>
                 </div>
             </div>
-            <div className="flex items-center justify-center">
-                <div className="introimgcontainer" >
+            <div className="flex items-center justify-center relative">
+                <div className="grid grid-cols-1 justify-center items-center justify-items-center w-full" >
                 <img
                     src="images/Organic-SVG-Blob.svg"
                     loading="lazy"
                     width="Auto"
                     alt=""
-                    className="imgbg"
+                    className="w-full rotate-45 translate-x-3"
                 />
                 <img
                     src= "images/ducky.png"
@@ -26,13 +26,7 @@ function Intro() {
                     sizes="(max-width: 479px) 97vw, 43vw"
                     srcSet="images/ducky-p-500.png 500w, images/ducky.png 700w"
                     alt="A rubber ducky."
-                    className="imgfg"
-                />
-                <img
-                    src="images/Organic-Shape.svg"
-                    loading="lazy"
-                    alt=""
-                    className="imagemg"
+                    className="w-ducky absolute"
                 />
                 </div>
             </div>
