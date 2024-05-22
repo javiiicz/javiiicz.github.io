@@ -21,7 +21,7 @@ function Timeline() {
                         <div className="timelinetime">Sep 2022 - Nov 2022</div>
                         <p className="timelinedesc">
                             Led a 4-week long SAT Math Bootcamp with 12 students with tailored
-                            lessons that contained explanations, examples, and exercises.{" "}
+                            lessons that contained explanations, examples, and exercises.
                         </p>
                     </div>
                     <div
@@ -77,7 +77,7 @@ function Timeline() {
                         data-w-id="29708f4d-f6fb-8fdc-e27c-e9b1cc1e9340"
                         sizes="50px"
                         alt="UMiami logo"
-                        srcSet="images/UMLogo-p-500.png 500w, images/UMLogo.png 512w"
+                        srcSet="images/UMLogo.png 500w, images/UMLogo.png 512w"
                         className="timelineimage"
                     />
                     <img

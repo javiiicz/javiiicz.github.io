@@ -12,7 +12,8 @@ module.exports = {
         'glow': '0 4px 6px rgba(249, 115, 22, 0.8)',
       },
       backgroundImage:{
-        'footer': "url('/src/images/Footer-background-2.png')"
+        'footer': "url('/src/images/Footer-background-2.png')",
+        'GitHub': "url('/src/images/Github-Circle.svg')"
       },
       width: {
         'ducky': '430px',

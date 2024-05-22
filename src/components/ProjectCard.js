@@ -6,17 +6,23 @@ function Tool({ name }){
   );
 }
 
-function ProjectCard({ name, desc, tools}) {
+function ProjectCard({ name, desc, tools, img, link}) {
   return (
-    <div className="max-w-[40%] bg-gray-200/40 p-5 flex flex-col rounded-lg gap-4 backdrop-blur-3xl">
-        <h4 className="text-2xl font-bold">{name}</h4>
-        <img src="images/placeholder.jpeg" alt="" className="w-[100%] mx-auto rounded"></img>
-        <p className="text-[13px] text-justify">{desc}</p>
-        <div className="flex flex-row justify-center gap-2">
-          {tools.map((tool, index) => (
-            <Tool key={index} name={tool}></Tool>
-          ))}
-        </div>
+    <div className="flex-initial w-[400px] bg-gray-200/40 p-5 flex flex-col rounded-lg gap-4 backdrop-blur-3xl">
+      <h4 className="text-2xl font-bold">{name}</h4>
+      <div className="relative">
+        <img src={ img } alt="" className="w-[100%] mx-auto rounded shadow-md"></img>
+        <a 
+          href={link}
+          className="absolute bottom-0 right-0 w-10 h-10 bg-gray-400 bg-GitHub bg-cover m-3 rounded-3xl">
+        </a>
+      </div>
+      <p className="text-[13px] text-justify">{desc}</p>
+      <div className="flex flex-row justify-center gap-2">
+        {tools.map((tool, index) => (
+          <Tool key={index} name={tool}></Tool>
+        ))}
+      </div>
     </div>
   );
 }
