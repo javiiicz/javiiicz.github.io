@@ -1,5 +1,7 @@
 import './App.css';
 import "./fonts.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import Skills from './components/Skills';
@@ -25,5 +27,11 @@ function App() {
     </div>
   );
 }
+
+AOS.init({
+  duration: 1000,
+  once: true,
+  delay: 500
+});
 
 export default App;

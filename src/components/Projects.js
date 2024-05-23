@@ -5,9 +5,9 @@ function Projects() {
     return (
         <section id="Projects">
             <div className="py-10 mb-40 px-[10%] bg-gradient-to-r from-red-400/95 to-yellow-300/95 shadow-md">
-                <h2 className="font-bold py-5 text-3xl">Projects</h2>
-                <p className="text-xl"> These projects serve as a way to practice my abilities, apply what is learned in class, and create impactful results.</p>
-                <div className="w-full flex flex-rows flex-wrap py-10 content-center justify-center gap-4">
+                <h2 className="font-bold py-5 text-3xl" data-aos="fade-right" data-aos-offset="500">Projects</h2>
+                <p className="text-xl" data-aos="fade-right" data-aos-offset="500"> These projects serve as a way to practice my abilities, apply what is learned in class, and create impactful results.</p>
+                <div className="w-full flex flex-rows flex-wrap py-10 content-center justify-center gap-4" data-aos="fade-right" data-aos-offset="500">
                     <ProjectCard 
                         name="Water Reviews" 
                         desc="Water Reviews is an IOS app built with Swift. The app lets users create reviews with sliders, an image, and a description. This review is then posted in the explore page for everyone with the app to see. Apart from SwiftUI, the project uses Firebase libraries such as FirebaseAuth, FirebaseStorage, and FirebaseDatastore for the server side functionality." 
