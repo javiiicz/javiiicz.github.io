@@ -8,7 +8,7 @@ function Tool({ name }){
 
 function ProjectCard({ name, desc, tools, img, link}) {
   return (
-    <div className="flex-initial w-[400px] bg-gray-200/40 p-5 flex flex-col rounded-lg gap-4 backdrop-blur-3xl">
+    <div className="flex-initial w-[400px] bg-gray-200/40 p-3 flex flex-col rounded-lg gap-4 backdrop-blur-3xl">
       <div className="relative">
         <img src={ img } alt="" className="w-[100%] mx-auto rounded shadow-md"></img>
         <a 
