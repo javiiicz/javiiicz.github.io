@@ -8,12 +8,12 @@ function Tool({ name }){
 
 function ProjectCard({ name, desc, tools, img, link}) {
   return (
-    <div className="flex-initial w-[400px] bg-gray-200/40 p-3 flex flex-col rounded-lg gap-4 backdrop-blur-3xl">
+    <div className="flex-initial w-[400px] bg-gray-200/40 p-3 flex flex-col rounded-[20px] gap-4 backdrop-blur-3xl">
       <div className="relative">
-        <img src={ img } alt="" className="w-[100%] mx-auto rounded shadow-md"></img>
+        <img src={ img } alt="" className="w-[100%] mx-auto rounded-[8px] shadow-md"></img>
         <a 
           href={link}
-          className="absolute bottom-0 right-0 w-10 h-10 bg-gray-400 bg-GitHub bg-cover m-3 rounded-3xl">
+          className="absolute bottom-0 right-0 w-10 h-10 bg-gray-100 bg-GitHub bg-cover m-3 rounded-3xl shadow-md">
         </a>
       </div>
       <h4 className="text-2xl font-bold">{name}</h4>
