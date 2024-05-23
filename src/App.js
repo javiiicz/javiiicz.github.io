@@ -31,7 +31,7 @@ function App() {
 AOS.init({
   duration: 1000,
   once: true,
-  delay: 500
+  delay: 300
 });
 
 export default App;
