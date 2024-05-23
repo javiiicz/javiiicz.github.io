@@ -12,7 +12,7 @@ function Timeline() {
 
 
             <div className="backdrop-blur bg-gray-100/50 px-[10%] py-2 shadow-glass py-6">
-                <h2 className="px-0 pb-1 font-bold text-3xl" data-aos="fade-right" data-aos-offset="500"> Experience </h2>
+                <h2 className="px-0 pb-1 font-bold text-3xl" data-aos="fade-right"> Experience </h2>
                 <div className="p-5" >
                 <VerticalTimeline
                     lineColor={'#111827'}>
