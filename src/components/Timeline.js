@@ -4,95 +4,93 @@ import 'react-vertical-timeline-component/style.min.css';
 function Timeline() {
     return (
         <section id="Experience">
-        <div className="experiencesection">
-            <img src="images/GreenBlob.svg" loading="lazy" alt="" className="blob green" />
-            <img src="images/RedBlob.svg" loading="lazy" alt="" className="blob red" />
-            <img src="images/DarkBlue-Blob.svg" loading="lazy" alt="" className="blob darkblue" />
-            <img src="images/TealBlob.svg" loading="lazy" alt="" className="blob teal" />
-            
-            <div className="glassycontainer mobiletimeline">
-                <h2 className="headingstyle nopadding" >
-                    Experience
-                </h2>
-                <div className="timelinecontainer" >
-                    <div className="timelineelecontainer" >
-                        <h3 className="timelineheading">Schoolhouse.world</h3>
-                        <div className="timelineposition">Math Tutor</div>
-                        <div className="timelinetime">Sep 2022 - Nov 2022</div>
-                        <p className="timelinedesc">
+        <div className="relative">
+            <img src="images/GreenBlob.svg" loading="lazy" alt="" className="absolute w-[400px] top-[300px] right-[100px]" />
+            <img src="images/RedBlob.svg" loading="lazy" alt="" className="absolute w-[300px] -top-[100px] left-[0px]" />
+            <img src="images/DarkBlue-Blob.svg" loading="lazy" alt="" className="absolute w-[400px] -bottom-[100px] -left-[100px]" />
+            <img src="images/TealBlob.svg" loading="lazy" alt="" className="absolute w-[500px] top-[50px] -right-[200px]" />
+
+
+            <div className="backdrop-blur bg-gray-100/50 mb-40 px-[10%] py-2 shadow-glass py-6">
+                <h2 className="px-0 pb-1 font-bold text-3xl" > Experience </h2>
+                <div className="p-5" >
+                <VerticalTimeline
+                    lineColor={'#111827'}>
+                    <VerticalTimelineElement
+                        icon={ <SHIcon /> }
+                        iconClassName='overflow-hidden '
+                        iconStyle={{ boxShadow: '#111827 0px 0px 1px 4px' }}
+                        date='Sep 2022 - Nov 2022'
+                    >
+                        <h3 className="my-0 text-lg">Schoolhouse.world</h3>
+                        <div className="text-sm italic">Math Tutor</div>
+                        <p className="mt-2">
                             Led a 4-week long SAT Math Bootcamp with 12 students with tailored
                             lessons that contained explanations, examples, and exercises.
                         </p>
-                    </div>
-                    <div
-                    id="w-node-e7d2f4d2-ead0-b555-88d6-e434b4c1e1df-05a70ca8"
-                    className="timelineelecontainer"
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        icon={ <UMIcon /> }
+                        iconClassName='overflow-hidden bg-gray-50 object-cover'
+                        iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                        date='Aug 2023 - Present'
                     >
-                        <h3 className="timelineheading">University of Miami</h3>
-                        <div className="timelineposition">
+                        <h3 className="my-0 text-lg">University of Miami</h3>
+                        <div className="text-sm italic">
                             B.S Computer Science &amp; Mathematics
                         </div>
-                        <div className="timelinetime">Aug 2023 - Present</div>
-                        <p className="timelinedesc">
+                        <p className="mt-2">
                             Currently pursuing a double major with concentration in Data Science
                             and Statistics, respectively.
                         </p>
-                    </div>
-                    <div
-                    id="w-node-_04d400eb-7b80-72a9-3ac6-c515734ee7b3-05a70ca8"
-                    className="timelineelecontainer"
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        icon={ <KTPIcon /> }
+                        iconClassName='overflow-hidden border-gray-400'
+                        iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                        date='April 2024 - Present'
+
                     >
-                        <h3 className="timelineheading">
+                        <h3 className="my-0 text-lg">
                             Kappa Theta Pi - Professional Fraternity
                         </h3>
-                        <div className="timelineposition">
+                        <div className="text-sm italic">
                             Director of Technical Operations
                         </div>
-                        <div className="timelinetime">April 2024 - Present</div>
-                        <p className="timelinedesc">
+                        <p className="mt-2">
                             Updates and maintains communication channels, including the website,
                             with the most recent information regarding members and events.{" "}
                         </p>
-                    </div>
-                    <div
-                    id="w-node-_48e6cfc0-4425-be2e-5097-134a6713db94-05a70ca8"
-                    className="linecontainer"
-                    >
-                    <div
-                        id="w-node-_618f4ae0-ff54-37fd-5c59-b24bb5c4af7b-05a70ca8"
-                        className="line"
-                    />
-                    <img
-                        src="images/SHWorld-Logo.jpeg"
-                        loading="lazy"
-                        data-w-id="556c48ec-2bf3-9482-8f41-059832c0edf4"
-                        id="w-node-_556c48ec-2bf3-9482-8f41-059832c0edf4-05a70ca8"
-                        alt="Schoolhouse.world logo
-            "
-                        className="timelineimage"
-                    />
-                    <img
-                        src="images/UMLogo.png"
-                        loading="lazy"
-                        data-w-id="29708f4d-f6fb-8fdc-e27c-e9b1cc1e9340"
-                        sizes="50px"
-                        alt="UMiami logo"
-                        srcSet="images/UMLogo.png 500w, images/UMLogo.png 512w"
-                        className="timelineimage"
-                    />
-                    <img
-                        src="images/ktp_logo.jpeg"
-                        loading="lazy"
-                        data-w-id="1fc4a71a-de24-8ada-5dbe-4ea3d0487538"
-                        alt="Kappa Theta Pi Professional Fraternity Logo
-            "
-                        className="timelineimage"
-                    />
-                    </div>
+                    </VerticalTimelineElement>
+                </VerticalTimeline>
                 </div>
             </div>
         </div>
         </ section>
+    )
+}
+
+function SHIcon() {
+    return (
+        <div>
+            <img src="images/SHWorld-Logo.jpeg" loading="lazy" alt="Schoolhouse.world logo" />
+        </div>
+    )
+}
+
+function UMIcon() {
+    return (
+        <div>
+            <img src="images/UMLogo.png" loading="lazy" alt="UMiami logo" />
+        </div>
+    )
+}
+
+function KTPIcon() {
+    return (
+        <div>
+            <img src="images/ktp_logo.jpeg" loading="lazy" alt="Kappa Theta Pi Professional Fraternity Logo" />
+        </div>
     )
 }
 
