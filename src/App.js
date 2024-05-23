@@ -32,7 +32,7 @@ AOS.init({
   duration: 1000,
   once: true,
   delay: 300,
-  offset: (window.innerHeight * .7)
+  offset: (window.innerHeight * .65)
 });
 
 export default App;
