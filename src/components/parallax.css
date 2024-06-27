@@ -1,0 +1,38 @@
+.parallax-effect {
+    transform-style: preserve-3d;
+}
+
+.blobbg {
+    transform: translate3d(10px, -50px, -50px) rotate(50deg)  scale(1.2);
+}
+
+
+.parallax-child {
+    transform: translateZ(50px) scale(0.8);
+}
+
+.blobfg {
+    transform: translate3d(10vw, -80vw, 100px) rotate(-90deg)  scale(0.6);
+}
+
+@media screen and (min-width: 650px) {
+    .blobfg {
+        transform: translate3d(10vw, -40vw, 100px) rotate(-90deg)  scale(0.6);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .blobfg {
+        transform: translate3d(8vw, -27vw, 100px) rotate(-90deg)  scale(0.6);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .blobfg {
+        transform: translate3d(5vw, -22vw, 100px) rotate(-90deg)  scale(0.6);
+    }
+}
+
+.button-parallax {
+    transform: translateZ(50px);
+}
