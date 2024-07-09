@@ -15,15 +15,15 @@ import React from 'react';
 function App() {
   return (
     <div className="bg-gray-50">
-      <Header />
-        <main className="overflow-hidden text-gray-900">
-          <Intro />
-          <Skills />
-          <Projects />
-          <Timeline />
-          <Contact />
-        </main>
-      <Footer />
+        <Header />
+          <main className="overflow-hidden text-gray-900">
+            <Intro />
+            <Skills />
+            <Projects />
+            <Timeline />
+            <Contact />
+          </main>
+        <Footer />
     </div>
   );
 }

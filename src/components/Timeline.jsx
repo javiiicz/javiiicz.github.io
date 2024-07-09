@@ -18,7 +18,7 @@ function Timeline() {
             <img src={tealBlobUrl} loading="lazy" alt="" className="absolute w-[500px] top-[50px] -right-[200px]" />
 
 
-            <div className="backdrop-blur bg-gray-100/50 px-[10%] shadow-glass py-6">
+            <div className="noise-overlay backdrop-blur bg-gray-100/50 px-[10%] shadow-glass py-6">
                 <h2 className="px-0 pb-1 font-bold text-3xl drop-shadow" data-aos="fade-right"> Experience </h2>
                 <div className="p-5" >
                 <VerticalTimeline
