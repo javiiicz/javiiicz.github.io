@@ -4,6 +4,7 @@ import WRUrl from "../images/Water-Review-Img.png";
 import SudokuUrl from "../images/Sudoku-Img.png";
 import MastermindUrl from "../images/Mastermind-Img.png";
 import QRUrl from "../images/QR_Code.png"
+import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
 
 function Projects() {
     return (
@@ -40,6 +41,14 @@ function Projects() {
                         img={QRUrl}
                         link="https://github.com/javiiicz/QRCodeGen"
                         website="https://javiiicz.github.io/QRCodeGen/">
+                    </ProjectCard>
+                    <ProjectCard
+                        name="Minesweeper Game"
+                        desc="The classic Microsoft minesweeper game made with JavaScript. Click cells or flag them to discover the location of all the mines. Contains three difficulties a scoreboard system where users can post results."
+                        tools={["JavaScript", "Firebase"]}
+                        img={MinesweeperUrl}
+                        link="https://github.com/javiiicz/Minesweeper"
+                        website="https://javiiicz.github.io/Minesweeper/">
                     </ProjectCard>
                 </div>
             </ div>
