@@ -43,7 +43,7 @@ function Projects() {
                         website="https://javiiicz.github.io/QRCodeGen/">
                     </ProjectCard>
                     <ProjectCard
-                        name="Minesweeper Game"
+                        name="Minesweeper"
                         desc="The classic Microsoft minesweeper game made with JavaScript. Click cells or flag them to discover the location of all the mines. Contains three difficulties a scoreboard system where users can post results."
                         tools={["JavaScript", "Firebase"]}
                         img={MinesweeperUrl}
