@@ -4,8 +4,8 @@ import javaUrl from "../images/Java.webp";
 import pythonUrl from "../images/python.webp";
 import CUrl from "../images/C-Logo.png";
 import JSUrl from "../images/JS.png";
-import UnityUrl from "../images/unity-logo.png";
-import SQLUrl from "../images/sql.png";
+import CSharlUrl from "../images/csharp.png"
+import CppUrl from "../images/Cpp_logo.png"
 import redBlobUrl from "../images/RedBlob.svg";
 import yellowBlobUrl from "../images/Yellow-Blob.svg"
 
@@ -18,12 +18,12 @@ function Skills() {
                 <h2 className="px-0 pb-1 font-bold text-3xl drop-shadow" data-aos="fade-right"> Skills </h2>
                 <p className="text-xl" data-aos="fade-right"> What I'm familiar working with... </p>
                 <div className="flex gap-4 flex-wrap justify-center py-4" data-aos="fade-right">
-                    <SkillCard name="Java" img={javaUrl}/>
                     <SkillCard name="Python" img={pythonUrl}/>
-                    <SkillCard name="C" img={CUrl}/>
+                    <SkillCard name="Java" img={javaUrl}/>
                     <SkillCard name="JavaScript" img={JSUrl}/>
-                    <SkillCard name="Unity" img={UnityUrl}/>
-                    <SkillCard name="SQL" img={SQLUrl}/>
+                    <SkillCard name="C" img={CUrl}/>
+                    <SkillCard name="C++" img={CppUrl}/>
+                    <SkillCard name="C Sharp" img={CSharlUrl}/>
                 </div>
             </div>
 </section>
