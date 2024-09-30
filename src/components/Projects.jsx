@@ -5,6 +5,7 @@ import SudokuUrl from "../images/Sudoku-Img.png";
 import MastermindUrl from "../images/Mastermind-Img.png";
 import QRUrl from "../images/QR_Code.png"
 import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
+import DDUrl from "../images/DD_demo.gif"
 
 function Projects() {
     return (
@@ -16,7 +17,7 @@ function Projects() {
                     <ProjectCard
                         name="Water Reviews"
                         desc="Water Reviews is an IOS app built with Swift. The app lets users create reviews with sliders, an image, and a description. This review is then posted in the explore page for everyone with the app to see. Apart from SwiftUI, the project uses Firebase libraries such as FirebaseAuth, FirebaseStorage, and FirebaseDatastore for the server side functionality."
-                        tools={["Swift","FirebaseAuth","Datastore"]}
+                        tools={["Swift", "FirebaseAuth", "Datastore"]}
                         img={WRUrl}
                         link="https://github.com/javiiicz/Water-Review-App">
                     </ProjectCard>
@@ -47,6 +48,14 @@ function Projects() {
                         desc="The classic Microsoft minesweeper game made with JavaScript. Click cells or flag them to discover the location of all the mines. Contains three difficulties a scoreboard system where users can post results."
                         tools={["JavaScript", "Firebase"]}
                         img={MinesweeperUrl}
+                        link="https://github.com/javiiicz/Minesweeper"
+                        website="https://javiiicz.github.io/Minesweeper/">
+                    </ProjectCard>
+                    <ProjectCard
+                        name="DrowsyDriver"
+                        desc="Real-time computer vision software with fatigue detection system to improve accessibility of the technology and alert drivers in danger of sleepy driving, preventing accidents. SHELLHACKS WINNER: 3rd place (Google's Social Good Challenge) and Honorable Mention (Microsoft's AI for Education Challenge)"
+                        tools={["Python", "Flask", "OpenCV", "dlib", "React"]}
+                        img={DDUrl}
                         link="https://github.com/javiiicz/Minesweeper"
                         website="https://javiiicz.github.io/Minesweeper/">
                     </ProjectCard>
