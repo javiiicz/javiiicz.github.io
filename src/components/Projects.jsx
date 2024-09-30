@@ -56,8 +56,8 @@ function Projects() {
                         desc="Real-time computer vision software with fatigue detection system to improve accessibility of the technology and alert drivers in danger of sleepy driving, preventing accidents. SHELLHACKS WINNER: 3rd place (Google's Social Good Challenge) and Honorable Mention (Microsoft's AI for Education Challenge)"
                         tools={["Python", "Flask", "OpenCV", "dlib", "React"]}
                         img={DDUrl}
-                        link="https://github.com/javiiicz/Minesweeper"
-                        website="https://javiiicz.github.io/Minesweeper/">
+                        link="https://github.com/Alans44/DrowsyDriver"
+                        website="https://devpost.com/software/drowsydriver-e31tn6">
                     </ProjectCard>
                 </div>
             </ div>
