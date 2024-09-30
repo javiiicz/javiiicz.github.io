@@ -3,6 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import SHUrl from "../images/SHWorld-Logo.jpeg"
 import UMUrl from "../images/UMLogo.png"
 import KTPUrl from "../images/ktp_logo.jpeg"
+import BonsaiUrl from "../images/Bonsai_Icon.png"
 import greenBlobUrl from "../images/GreenBlob.svg"
 import redBlobUrl from "../images/RedBlob.svg"
 import blueBlobUrl from "../images/DarkBlue-Blob.svg"
@@ -36,6 +37,7 @@ function Timeline() {
                             lessons that contained explanations, examples, and exercises.
                         </p>
                     </VerticalTimelineElement>
+                    
                     <VerticalTimelineElement
                         icon={ <UMIcon /> }
                         iconClassName='overflow-hidden bg-gray-50 object-cover'
@@ -51,6 +53,7 @@ function Timeline() {
                             and Statistics, respectively.
                         </p>
                     </VerticalTimelineElement>
+                    
                     <VerticalTimelineElement
                         icon={ <KTPIcon /> }
                         iconClassName='overflow-hidden border-gray-400'
@@ -65,8 +68,27 @@ function Timeline() {
                             Director of Technical Operations
                         </div>
                         <p className="mt-2">
-                            Updates and maintains communication channels, including the website,
+                            Update and maintain communication channels, including the website,
                             with the most recent information regarding members and events.{" "}
+                        </p>
+                    </VerticalTimelineElement>
+                    
+                    <VerticalTimelineElement
+                        icon={ <BonsaiIcon /> }
+                        iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                        iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                        date='September 2024 - Present'
+
+                    >
+                        <h3 className="my-0 text-lg">
+                            Bonsai Applied Computations Group
+                        </h3>
+                        <div className="text-sm italic">
+                            Research Analyst
+                        </div>
+                        <p className="mt-2">
+                        Develop and deploy computer science applications to support faculty research, boosting interdisciplinary research
+                        efforts and enhancing academic output across various fields{" "}
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
@@ -97,6 +119,14 @@ function KTPIcon() {
     return (
         <div>
             <img src={KTPUrl} loading="lazy" alt="Kappa Theta Pi Professional Fraternity Logo" />
+        </div>
+    )
+}
+
+function BonsaiIcon() {
+    return (
+        <div>
+            <img src={BonsaiUrl} loading="lazy" alt="Bonsai Appliec Computation Group Logo" />
         </div>
     )
 }
