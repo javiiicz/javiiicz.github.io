@@ -1,2 +1,2 @@
 # Personal Website
-Check it out https://https://javiiicz.github.io/
+Check it out https://javiiicz.github.io/
