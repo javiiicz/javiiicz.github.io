@@ -4,6 +4,7 @@ import SHUrl from "../images/SHWorld-Logo.jpeg"
 import UMUrl from "../images/UMLogo.png"
 import KTPUrl from "../images/ktp_logo.jpeg"
 import BonsaiUrl from "../images/Bonsai_Icon.png"
+import MetaUrl from "../images/meta_icon.png"
 import greenBlobUrl from "../images/GreenBlob.svg"
 import redBlobUrl from "../images/RedBlob.svg"
 import blueBlobUrl from "../images/DarkBlue-Blob.svg"
@@ -69,7 +70,7 @@ function Timeline() {
                         </div>
                         <p className="mt-2">
                             Update and maintain communication channels, including the website,
-                            with the most recent information regarding members and events.{" "}
+                            with the most recent information regarding members and events.
                         </p>
                     </VerticalTimelineElement>
                     
@@ -88,8 +89,23 @@ function Timeline() {
                         </div>
                         <p className="mt-2">
                         Develop and deploy computer science applications to support faculty research, boosting interdisciplinary research
-                        efforts and enhancing academic output across various fields{" "}
+                        efforts and enhancing academic output across various fields.
                         </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        icon={ <MetaIcon /> }
+                        iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                        iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                        date='June 2025'
+
+                    >
+                        <h3 className="my-0 text-lg">
+                            Meta
+                        </h3>
+                        <div className="text-sm italic">
+                            Incoming Meta University Software Engineer
+                        </div>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
                 </div>
@@ -126,7 +142,15 @@ function KTPIcon() {
 function BonsaiIcon() {
     return (
         <div>
-            <img src={BonsaiUrl} loading="lazy" alt="Bonsai Appliec Computation Group Logo" />
+            <img src={BonsaiUrl} loading="lazy" alt="Bonsai Applied Computation Group Logo" />
+        </div>
+    )
+}
+
+function MetaIcon() {
+    return (
+        <div>
+            <img src={MetaUrl} loading="lazy" alt="Meta Logo"/>
         </div>
     )
 }
