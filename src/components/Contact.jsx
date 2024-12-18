@@ -26,6 +26,9 @@ function Contact() {
 function copyToClipboard() {
     navigator.clipboard
       .writeText("jcarrillo@miami.edu")
+      .then(() => {
+        alert("Email copied to clipboard!");
+      })
 }
 
 export default Contact;
