@@ -15,12 +15,17 @@ function Contact() {
                     className='parallax-effect relative bg-rose-600/60 w-52 h-[5.5rem] border-[8px] border-rose-600/5 rounded-[24px] shadow'
                     scale={1.05}
                 >
-                    <a href="mailto:jcarrillo@miami.edu" className="absolute text-center w-full h-full text-gray-50 font-bold text-2xl bg-red-500/90 hover:bg-rose-500/80 px-8 py-5 rounded-2xl transition-all drop-shadow-xl button-parallax"> Let's Talk </a>
+                    <a onClick={copyToClipboard} className="absolute text-center w-full h-full text-gray-50 font-bold text-2xl bg-red-500/90 hover:bg-rose-500/80 active:bg-rose-600 px-8 py-5 rounded-2xl transition-all drop-shadow-xl button-parallax"> Let's Talk </a>
                 </Tilt>
 
             </div>
         </div>
     )
+}
+
+function copyToClipboard() {
+    navigator.clipboard
+      .writeText("jcarrillo@miami.edu")
 }
 
 export default Contact;
