@@ -1,11 +1,11 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import WRUrl from "../images/Water-Review-Img.png";
+import WRUrl from "../images/Water-Review-Img.jpg";
 import SudokuUrl from "../images/Sudoku-Img.png";
 import MastermindUrl from "../images/Mastermind-Img.png";
 import QRUrl from "../images/QR_Code.png"
 import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
-import DDUrl from "../images/DD_demo.gif"
+import DDUrl from "../images/DD_demo.png"
 import GOLUrl from "../images/Conway.png"
 import ZombUrl from "../images/Zombie.png"
 
