@@ -8,7 +8,7 @@ function Tool({name}) {
 
 function ProjectCard({name, desc, tools, img, link, website = ""}) {
     return (
-        <div className="w-[400px] bg-gray-200/40 p-3 flex flex-col rounded-[20px] gap-3 backdrop-blur-3xl ">
+        <div className="w-[400px] bg-gray-200/40 p-3 flex flex-col rounded-[20px] gap-3 backdrop-blur-3xl " data-aos="fade-right">
             <div className="relative">
                 <img src={img} alt="" className="w-[100%] mx-auto rounded-[8px] shadow-md"></img>
                 {website && (

@@ -6,6 +6,8 @@ import MastermindUrl from "../images/Mastermind-Img.png";
 import QRUrl from "../images/QR_Code.png"
 import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
 import DDUrl from "../images/DD_demo.gif"
+import GOLUrl from "../images/Conway.png"
+import ZombUrl from "../images/Zombie.png"
 
 function Projects() {
     return (
@@ -13,7 +15,7 @@ function Projects() {
             <div className="py-10 mb-40 px-16 bg-gradient-to-r from-red-400/95 to-yellow-300/95 shadow-md">
                 <h2 className="font-bold py-5 text-3xl drop-shadow" data-aos="fade-right">Projects</h2>
                 <p className="text-xl" data-aos="fade-right"> These projects serve as a way to practice my abilities, apply what is learned in class, and create impactful results.</p>
-                <div className="w-full flex flex-rows flex-wrap py-10 content-center justify-center gap-4" data-aos="fade-right">
+                <div className="w-full flex flex-rows flex-wrap py-10 content-center justify-center gap-4">
                     <ProjectCard
                         name="Water Reviews"
                         desc="Water Reviews is an IOS app built with Swift. The app lets users create reviews with sliders, an image, and a description. This review is then posted in the explore page for everyone with the app to see. Apart from SwiftUI, the project uses Firebase libraries such as FirebaseAuth, FirebaseStorage, and FirebaseDatastore for the server side functionality."
@@ -58,6 +60,21 @@ function Projects() {
                         img={DDUrl}
                         link="https://github.com/Alans44/DrowsyDriver"
                         website="https://devpost.com/software/drowsydriver-e31tn6">
+                    </ProjectCard>
+                    <ProjectCard
+                        name="Game of Life"
+                        desc="A C++ implementation of Conway's Game of Life, featuring cellular automaton simulations with interactive controls and customizable configurations."
+                        tools={["C++", "SFML"]}
+                        img={GOLUrl}
+                        link="https://github.com/javiiicz/Game_of_Life">
+                    </ProjectCard>
+                    <ProjectCard
+                        name="Zombie Escape"
+                        desc="A Unity game made to showcase abilities obtained in Creative Coding course. In this arcade game you need to jump and dash to avoid the zombies trying to get to you!"
+                        tools={["Unity Game Engine", "C#"]}
+                        img={ZombUrl}
+                        link="https://github.com/javiiicz/UnityFinalProject"
+                        website="https://drive.google.com/file/d/19_SyV-KrBERhmLY_6sR3j62GYmOVK_kw/view?usp=sharing">
                     </ProjectCard>
                 </div>
             </ div>
