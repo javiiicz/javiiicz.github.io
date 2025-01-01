@@ -18,7 +18,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-5 items-center justify-items-center">
-                        <p>© 2024 Javier Carrillo</p>
+                        <p>© 2025 Javier Carrillo</p>
                     </div>
                 </div>
             </footer>
