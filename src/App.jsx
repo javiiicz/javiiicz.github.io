@@ -11,10 +11,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import React from 'react';
 
-
 function App() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-[url('./images/moroccan-flower.png')]" >
         <Header />
           <main className="overflow-hidden text-gray-900">
             <Intro />

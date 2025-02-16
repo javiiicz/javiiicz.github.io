@@ -1,9 +1,9 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SHUrl from "../images/SHWorld-Logo.jpeg"
 import UMUrl from "../images/UMLogo.png"
 import KTPUrl from "../images/ktp_logo.jpeg"
 import BonsaiUrl from "../images/Bonsai_Icon.png"
+import IDSCUrl from "../images/idsc.png"
 import MetaUrl from "../images/meta_icon.png"
 import greenBlobUrl from "../images/GreenBlob.svg"
 import redBlobUrl from "../images/RedBlob.svg"
@@ -25,19 +25,6 @@ function Timeline() {
                 <div className="p-5" >
                 <VerticalTimeline
                     lineColor={'#111827'}>
-                    <VerticalTimelineElement
-                        icon={ <SHIcon /> }
-                        iconClassName='overflow-hidden '
-                        iconStyle={{ boxShadow: '#111827 0px 0px 1px 4px' }}
-                        date='Sep 2022 - Nov 2022'
-                    >
-                        <h3 className="my-0 text-lg">Schoolhouse.world</h3>
-                        <div className="text-sm italic">Math Tutor</div>
-                        <p className="mt-2">
-                            Led a 4-week long SAT Math Bootcamp with 12 students with tailored
-                            lessons that contained explanations, examples, and exercises.
-                        </p>
-                    </VerticalTimelineElement>
                     
                     <VerticalTimelineElement
                         icon={ <UMIcon /> }
@@ -50,7 +37,7 @@ function Timeline() {
                             B.S Computer Science &amp; Mathematics
                         </div>
                         <p className="mt-2">
-                            Currently pursuing a double major with concentration in Data Science
+                            I'm currently pursuing a double major with concentration in Data Science
                             and Statistics, respectively.
                         </p>
                     </VerticalTimelineElement>
@@ -69,7 +56,7 @@ function Timeline() {
                             Director of Technical Operations
                         </div>
                         <p className="mt-2">
-                            Update and maintain communication channels, including the website,
+                            I update and maintain communication channels, including the website,
                             with the most recent information regarding members and events.
                         </p>
                     </VerticalTimelineElement>
@@ -88,8 +75,26 @@ function Timeline() {
                             Research Analyst
                         </div>
                         <p className="mt-2">
-                        Develop and deploy computer science applications to support faculty research, boosting interdisciplinary research
+                        I develop and deploy computer science applications to support faculty research, boosting interdisciplinary research
                         efforts and enhancing academic output across various fields.
+                        </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        icon={ <IDSCIcon /> }
+                        iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                        iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                        date='January 2025 - Present'
+
+                    >
+                        <h3 className="my-0 text-lg">
+                            University of Miami Frost Institute for Data Science & Computing
+                        </h3>
+                        <div className="text-sm italic">
+                            XR Developer
+                        </div>
+                        <p className="mt-2">
+                        I am an XR developer at the University of Miami, where I work on cutting-edge immersive media projects with students and faculty. 
                         </p>
                     </VerticalTimelineElement>
 
@@ -115,10 +120,10 @@ function Timeline() {
     )
 }
 
-function SHIcon() {
+function IDSCIcon() {
     return (
         <div>
-            <img src={SHUrl} loading="lazy" alt="Schoolhouse.world logo" />
+            <img src={IDSCUrl} loading="lazy" alt="University of Miami Frost Institute for Data Science & Computing logo" />
         </div>
     )
 }
