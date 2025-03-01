@@ -10,7 +10,7 @@ export default {
         'intro': '1.25fr 1fr',
       },
       dropShadow: {
-        'glow': '0 4px 6px rgba(249, 115, 22, 0.8)',
+        'glow': '0 4px 12px rgba(249, 115, 22, 0.8)',
       },
       backgroundImage:{
         'footer': "url('/src/images/Footer-background-2.png')",

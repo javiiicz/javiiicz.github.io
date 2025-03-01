@@ -11,27 +11,29 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import React from 'react';
 
+
+
 function App() {
-  return (
-    <div className="bg-[url('./images/moroccan-flower.png')]" >
-        <Header />
-          <main className="overflow-hidden text-gray-900">
-            <Intro />
-            <Skills />
-            <Projects />
-            <Timeline />
-            <Contact />
-          </main>
-        <Footer />
-    </div>
-  );
+    return (
+        <div className="bg-[url('./images/moroccan-flower.png')]" >
+            <Header />
+            <main className="overflow-hidden text-gray-900">
+                <Intro />
+                <Skills />
+                <Projects />
+                <Timeline />
+                <Contact />
+            </main>
+            <Footer />
+        </div>
+    );
 }
 
 AOS.init({
-  duration: 1000,
-  once: true,
-  delay: 300,
-  offset: (window.innerHeight * .3)
+    duration: 1000,
+    once: true,
+    delay: 300,
+    offset: (window.innerHeight * .3)
 });
 
 export default App;

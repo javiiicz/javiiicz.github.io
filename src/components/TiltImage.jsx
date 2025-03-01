@@ -7,7 +7,7 @@ function TiltImage() {
         <div className="grid grid-cols-1 justify-center items-center justify-items-center w-full">
             <Tilt className="parallax-effect relative"
                   perspective={500}
-                  tiltReverse={true} ß
+                  tiltReverse={true}
                   transitionSpeed={30000}
             >
                 <svg className="absolute blobbg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
