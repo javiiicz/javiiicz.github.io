@@ -12,12 +12,11 @@ import Footer from './components/Footer';
 import React from 'react';
 
 
-
 function App() {
     return (
         <div className="bg-[url('./images/moroccan-flower.png')]" >
             <Header />
-            <main className="overflow-hidden text-gray-900">
+            <main className="font-bold py-5 text-3xl overflow-hidden text-gray-900">
                 <Intro />
                 <Skills />
                 <Projects />

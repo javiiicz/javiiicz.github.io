@@ -2,12 +2,12 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import WRUrl from "../images/Water-Review-Img.jpg";
 import SudokuUrl from "../images/Sudoku-Img.png";
-import MastermindUrl from "../images/Mastermind-Img.png";
 import QRUrl from "../images/QR_Code.png"
 import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
 import DDUrl from "../images/DD_demo.png"
 import GOLUrl from "../images/Conway.png"
 import ZombUrl from "../images/Zombie.png"
+import OtherExperiments from './Other';
 
 function Projects() {
     return (
@@ -29,13 +29,6 @@ function Projects() {
                         tools={["Python", "Tkinter"]}
                         img={SudokuUrl}
                         link="https://github.com/javiiicz/Sudoku">
-                    </ProjectCard>
-                    <ProjectCard
-                        name="Mastermind"
-                        desc="Codeword guessing gamse set in two parts where you have to guess a hidden codeword chosen by the computer. Alternatively, one can create a codeword and have the computer try to guess the number."
-                        tools={["Java"]}
-                        img={MastermindUrl}
-                        link="https://github.com/javiiicz/Mastermind">
                     </ProjectCard>
                     <ProjectCard
                         name="QR Code Generator"
@@ -68,15 +61,9 @@ function Projects() {
                         img={GOLUrl}
                         link="https://github.com/javiiicz/Game_of_Life">
                     </ProjectCard>
-                    <ProjectCard
-                        name="Zombie Escape"
-                        desc="A Unity game made to showcase abilities obtained in Creative Coding course. In this arcade game you need to jump and dash to avoid the zombies trying to get to you!"
-                        tools={["Unity Game Engine", "C#"]}
-                        img={ZombUrl}
-                        link="https://github.com/javiiicz/UnityFinalProject"
-                        website="https://drive.google.com/file/d/19_SyV-KrBERhmLY_6sR3j62GYmOVK_kw/view?usp=sharing">
-                    </ProjectCard>
                 </div>
+
+                <OtherExperiments/>
             </ div>
         </section>
     )
