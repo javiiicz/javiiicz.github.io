@@ -29,7 +29,7 @@ function Intro() {
                     <div className="h-full flex items-center justify-center">
                         <p className="text-center w-11/12 m-0 px-32 text-6xl font-extrabold cursor-default" >
                             Hello! I'm
-                            <span className="transition-all text-orange-500 hover:drop-shadow-glow duration-500"> Javier</span>, aspiring software developer.
+                            <span className="transition-all text-orange-500 hover:drop-shadow-glow duration-500"> Javier</span>, aspiring software engineer.
                         </p>
                     </div>
                 </AnimatedContent>
