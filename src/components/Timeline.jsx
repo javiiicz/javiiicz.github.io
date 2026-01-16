@@ -5,6 +5,7 @@ import KTPUrl from "../images/ktp_logo.jpeg"
 import BonsaiUrl from "../images/Bonsai_Icon.png"
 import IDSCUrl from "../images/idsc.png"
 import MetaUrl from "../images/meta_icon.png"
+import GoogleUrl from "../images/google.png"
 import greenBlobUrl from "../images/GreenBlob.svg"
 import redBlobUrl from "../images/RedBlob.svg"
 import blueBlobUrl from "../images/DarkBlue-Blob.svg"
@@ -65,7 +66,7 @@ function Timeline() {
                                 icon={<BonsaiIcon />}
                                 iconClassName='overflow-hidden bg-gray-50 border-gray-400'
                                 iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
-                                date='September 2024 - Present'
+                                date='September 2024 - December 2025'
 
                             >
                                 <h3 className="my-0 text-lg">
@@ -84,7 +85,7 @@ function Timeline() {
                                 icon={<IDSCIcon />}
                                 iconClassName='overflow-hidden bg-gray-50 border-gray-400'
                                 iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
-                                date='January 2025 - Present'
+                                date='January 2025 - December 2025'
 
                             >
                                 <h3 className="my-0 text-lg">
@@ -113,6 +114,24 @@ function Timeline() {
                                 </div>
                                 <p className="mt-2">
                                     I developed a full-stack application using React, Node, Postgres, and other APIs with the help of a manager and peers.
+                                </p>
+                            </VerticalTimelineElement>
+
+                            <VerticalTimelineElement
+                                icon={<GoogleIcon />}
+                                iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                                iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                                date='Summer 2026'
+
+                            >
+                                <h3 className="my-0 text-lg">
+                                    Google
+                                </h3>
+                                <div className="text-sm italic">
+                                    Software Engineer Intern
+                                </div>
+                                <p className="mt-2">
+                                    Upcoming
                                 </p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
@@ -159,6 +178,14 @@ function MetaIcon() {
     return (
         <div>
             <img src={MetaUrl} loading="lazy" alt="Meta Logo" />
+        </div>
+    )
+}
+
+function GoogleIcon() {
+    return (
+        <div>
+            <img src={GoogleUrl} loading="lazy" alt="Meta Logo" />
         </div>
     )
 }
