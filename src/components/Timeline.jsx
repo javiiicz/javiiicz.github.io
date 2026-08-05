@@ -85,18 +85,18 @@ function Timeline() {
                                 icon={<IDSCIcon />}
                                 iconClassName='overflow-hidden bg-gray-50 border-gray-400'
                                 iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
-                                date='January 2025 - December 2025'
-
+                                date='January 2025 - January 2026'
                             >
-                                <h3 className="my-0 text-lg">
-                                    University of Miami Frost Institute for Data Science & Computing
+                                <h3 className="my-0 text-lg font-bold">
+                                    Virtual Experiences Simulation Lab
                                 </h3>
-                                <div className="text-sm italic">
-                                    XR Developer
+                                <div className="text-sm italic font-semibold text-gray-700">
+                                    XR Developer • Coral Gables, FL
                                 </div>
-                                <p className="mt-2">
-                                    I am an XR developer at the University of Miami, where I work on cutting-edge immersive media projects with students and faculty.
-                                </p>
+                                <ul className="mt-2 text-sm list-disc pl-5 space-y-1 font-normal">
+                                    <li>Developed an immersive virtual reality experience in Unity and C# to study social anxiety, gathering behavioral telemetry to support ongoing psychological research.</li>
+                                    <li>Improved product usability and research alignment by leading iterative user testing, accelerating development time and enhancing subject engagement.</li>
+                                </ul>
                             </VerticalTimelineElement>
 
                             <VerticalTimelineElement
@@ -104,35 +104,73 @@ function Timeline() {
                                 iconClassName='overflow-hidden bg-gray-50 border-gray-400'
                                 iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
                                 date='June 2025 - August 2025'
-
                             >
-                                <h3 className="my-0 text-lg">
+                                <h3 className="my-0 text-lg font-bold">
                                     Meta
                                 </h3>
-                                <div className="text-sm italic">
-                                    Software Engineer Intern
+                                <div className="text-sm italic font-semibold text-gray-700">
+                                    Software Engineer Intern • Menlo Park, CA
                                 </div>
-                                <p className="mt-2">
-                                    I developed a full-stack application using React, Node, Postgres, and other APIs with the help of a manager and peers.
-                                </p>
+                                <ul className="mt-2 text-sm list-disc pl-5 space-y-1 font-normal">
+                                    <li>Shipped a full-stack event-discovery platform (React, Express, Prisma, PostgreSQL) end-to-end, completing all 10 MVP milestones on schedule and delivering 2 stretch features ahead of deadline.</li>
+                                    <li>Designed and implemented a multi-factor recommendation engine blending user history, similar-user behavior, and event proximity, and a multi-objective scheduling algorithm that optimizes routes for commute time.</li>
+                                    <li>Cut load times by 200ms by integrating React Query caching into the scheduling and recommendation features.</li>
+                                </ul>
                             </VerticalTimelineElement>
 
                             <VerticalTimelineElement
                                 icon={<GoogleIcon />}
                                 iconClassName='overflow-hidden bg-gray-50 border-gray-400'
                                 iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
-                                date='Summer 2026'
-
+                                date='May 2026 - July 2026'
                             >
-                                <h3 className="my-0 text-lg">
-                                    Google
+                                <h3 className="my-0 text-lg font-bold">
+                                    Google (YouTube)
                                 </h3>
-                                <div className="text-sm italic">
-                                    Software Engineer Intern
+                                <div className="text-sm italic font-semibold text-gray-700">
+                                    Software Engineer Intern • San Bruno, CA
                                 </div>
-                                <p className="mt-2">
-                                    Upcoming
-                                </p>
+                                <ul className="mt-2 text-sm list-disc pl-5 space-y-1 font-normal">
+                                    <li>Drove end-to-end design and C++ implementation of an automated static validation gate in the CI/CD presubmit pipeline, catching configuration errors pre-commit and saving an estimated 15 hours/week.</li>
+                                    <li>Authored technical architecture design specifications for security permission validation, leading development and deploying IAM checks across 34+ production environments and 380+ use cases.</li>
+                                    <li>Built comprehensive C++ unit and integration test suites, ensuring 95% test coverage across the codebase.</li>
+                                </ul>
+                            </VerticalTimelineElement>
+
+                            <VerticalTimelineElement
+                                icon={<UMIcon />}
+                                iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                                iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                                date='January 2026 - May 2026'
+                            >
+                                <h3 className="my-0 text-lg font-bold">
+                                    University of Miami, Department of Computer Science
+                                </h3>
+                                <div className="text-sm italic font-semibold text-gray-700">
+                                    Teaching Assistant – Data Structures &amp; Algorithms
+                                </div>
+                                <ul className="mt-2 text-sm list-disc pl-5 space-y-1 font-normal">
+                                    <li>Conducted weekly office hours to guide students in learning core concepts in data structures.</li>
+                                    <li>Evaluated weekly homework assignments covering foundational DSA topics, providing detailed feedback on theoretical correctness and problem-solving logic.</li>
+                                </ul>
+                            </VerticalTimelineElement>
+
+                            <VerticalTimelineElement
+                                icon={<UMIcon />}
+                                iconClassName='overflow-hidden bg-gray-50 border-gray-400'
+                                iconStyle={{ boxShadow: '#111827 0px 0px 0px 4px' }}
+                                date='August 2024 - Present'
+                            >
+                                <h3 className="my-0 text-lg font-bold">
+                                    Housing and Residential Life, University of Miami
+                                </h3>
+                                <div className="text-sm italic font-semibold text-gray-700">
+                                    Lead First Year Fellow (May 2026) / First Year Fellow
+                                </div>
+                                <ul className="mt-2 text-sm list-disc pl-5 space-y-1 font-normal">
+                                    <li>Serve as the primary student liaison between professional housing staff and student staff, facilitating weekly meetings and co-directing program planning.</li>
+                                    <li>Mentor 50+ first-year students in their academic and personal transition to university life, increasing student engagement through campus events.</li>
+                                </ul>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
                     </div>

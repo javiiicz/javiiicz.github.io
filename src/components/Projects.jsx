@@ -7,6 +7,7 @@ import MinesweeperUrl from "../images/Minesweeper_Thumbnail.png"
 import DDUrl from "../images/DD_demo.png"
 import GOLUrl from "../images/Conway.png"
 import ZombUrl from "../images/Zombie.png"
+import ResearchUrl from "../images/Research_Classifier.jpg";
 import OtherExperiments from './Other';
 
 function Projects() {
@@ -16,6 +17,20 @@ function Projects() {
                 <h2 className="font-bold py-5 text-3xl drop-shadow" data-aos="fade-right">Projects</h2>
                 <p className="text-xl" data-aos="fade-right"> These projects serve as a way to practice my abilities, apply what is learned in class, and create impactful results.</p>
                 <div className="w-full flex flex-rows flex-wrap py-10 content-center justify-center gap-4">
+                    <ProjectCard
+                        name="Transferability of Pre-Trained Image Classifiers (Research)"
+                        desc="Researched a training-free topological analysis mechanism to evaluate the transferability of pre-trained image classifiers across downstream computer vision tasks. Evaluated 9 computer vision architectures on ImageNet and CIFAR-100 datasets using class-mean clustering and cycle edge accumulation, establishing a statistically significant positive correlation with fine-tuned accuracy. Presented findings at the UM RCIF Forum."
+                        tools={["Python", "PyTorch", "Torchvision"]}
+                        img={ResearchUrl}>
+                    </ProjectCard>
+                    <ProjectCard
+                        name="DrowsyDriver (3rd Place, 36-hr Hackathon)"
+                        desc="Built a real-time driver fatigue monitoring system using OpenCV for video capture and dlib-based eye/mouth tracking to detect drowsiness and trigger alerts, placing 3rd out of 200+ teams. Architected a Flask API to asynchronously stream and process video frames in real time with 100ms detection latency and Azure Speech warnings."
+                        tools={["Python", "Flask", "OpenCV", "dlib", "Azure Speech"]}
+                        img={DDUrl}
+                        link="https://github.com/Alans44/DrowsyDriver"
+                        website="https://devpost.com/software/drowsydriver-e31tn6">
+                    </ProjectCard>
                     <ProjectCard
                         name="Water Reviews"
                         desc="Water Reviews is an IOS app built with Swift. The app lets users create reviews with sliders, an image, and a description. This review is then posted in the explore page for everyone with the app to see. Apart from SwiftUI, the project uses Firebase libraries such as FirebaseAuth, FirebaseStorage, and FirebaseDatastore for the server side functionality."
@@ -45,14 +60,6 @@ function Projects() {
                         img={MinesweeperUrl}
                         link="https://github.com/javiiicz/Minesweeper"
                         website="https://javiiicz.github.io/Minesweeper/">
-                    </ProjectCard>
-                    <ProjectCard
-                        name="DrowsyDriver"
-                        desc="Real-time computer vision software with fatigue detection system to improve accessibility of the technology and alert drivers in danger of sleepy driving, preventing accidents. SHELLHACKS WINNER: 3rd place (Google's Social Good Challenge) and Honorable Mention (Microsoft's AI for Education Challenge)"
-                        tools={["Python", "Flask", "OpenCV", "dlib", "React"]}
-                        img={DDUrl}
-                        link="https://github.com/Alans44/DrowsyDriver"
-                        website="https://devpost.com/software/drowsydriver-e31tn6">
                     </ProjectCard>
                     <ProjectCard
                         name="Game of Life"
